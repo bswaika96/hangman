@@ -1,0 +1,34 @@
+<!--PORT = 3000-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hangman - Baladitya Swaika</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="favicon.ico" rel="icon">
+</head>
+<body>
+    <div class="card">
+        <h1><img src="favicon.ico" alt="icon" width="30em"> theHangmanGame</h1>
+        <label for="difficulty">Difficulty: </label>
+        <select name="difficulty" id="difficulty" class="difficulties">
+            <option value="se">Super Easy</option>
+            <option value="e">Easy</option>
+            <option value="m" selected>Medium</option>
+            <option value="h">Hard</option>
+            <option value="sh">Super Hard</option>
+        </select>
+        <br><br>
+        <div class="app"></div>
+        <button class="reset">Restart Game</button>
+        <p class="footer">
+            &copy; Baladitya Swaika 2019.
+        </p>
+    </div>
+    <script src="scripts/requests.js"></script>
+    <script src="scripts/hangman.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
