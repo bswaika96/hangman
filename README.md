@@ -2,4 +2,4 @@
 
 :sparkles: View Live Project :
 
->swaika-hangman.surge.sh
+>http://swaika-hangman.surge.sh
